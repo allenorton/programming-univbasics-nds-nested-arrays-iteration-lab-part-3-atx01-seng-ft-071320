@@ -7,7 +7,7 @@ def join_nested_strings(src)
     el_index = 0 
     while el_index < src[row_index] do
       if src[row_index][el_index].is_a? == String
-        nu_str = "" + [el_index]
+        nu_str = src[row_index][el_index].join
       else nil 
       end
     el_index += 1
