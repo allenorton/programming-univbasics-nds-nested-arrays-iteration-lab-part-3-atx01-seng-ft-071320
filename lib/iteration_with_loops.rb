@@ -4,7 +4,7 @@ def join_nested_strings(src)
   nu_str = ""
   row_index = 0 
   while row_index < src.count do
-    src[row_index].join
+    nu_str = src[row_index].join
     row_index +=1  
   end
   nu_str
