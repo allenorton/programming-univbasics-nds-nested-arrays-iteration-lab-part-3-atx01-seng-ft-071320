@@ -6,7 +6,12 @@ def join_nested_strings(src)
   while row_index < src.count do
     el_index = 0 
     while el_index < src[row_index] do
-      if src[row_index][el_index]
+      if src[row_index][el_index].is_a? == String
+        nu_str = "" + [el_index]
+      end
+    el_index += 1
     end
+  row_index +=1  
   end
+  nu_str
 end
