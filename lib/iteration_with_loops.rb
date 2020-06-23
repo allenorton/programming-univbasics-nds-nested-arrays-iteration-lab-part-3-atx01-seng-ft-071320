@@ -6,7 +6,7 @@ def join_nested_strings(src)
   while row_index < src.count do
     el_index = 0 
     while el_index < src[row_index] do
-      if type(src[row_index][el_index])
+      if src[row_index][el_index]
     end
   end
 end
